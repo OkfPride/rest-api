@@ -28,13 +28,7 @@ public class Tills {
         return tills.pollLast();
     }
 
-    private static void nextCustomer(int n) {
-        Integer summ[] = new Integer[n];
-        TreeSet<Integer> tills = new TreeSet<Integer>();
-        Collections.addAll(tills, summ);
-        Integer pollFirst = tills.pollFirst();
-        tills.add(pollFirst+tills.pollFirst());
-    }
+    
 
     public static void main(String[] args) {
         int solveSuperMarketQueue = solveSuperMarketQueue(new int[]{2, 2, 3, 3, 4, 4}, 2);
