@@ -23,13 +23,15 @@ public class EqualSides {
     public static int findEvenIndex(int[] arr) {
         int sumOfLeft = 0;
         int sumOfRight = 0;
+        if (sumOfLeft == sumOfArr(2, arr.length, arr)) {
+            return 0;
+        }
         for (int i = 0; i < arr.length; i++) {
             sumOfLeft += arr[i];
             sumOfRight = sumOfArr(i + 3, arr.length, arr);
             if (sumOfLeft == sumOfRight) {
                 return i + 1;
             }
-            
         }
         return -1;
     }
