@@ -16,7 +16,11 @@ public class MypracticTests {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+<<<<<<< Updated upstream
         String ss = "123";
+=======
+        int a =2;
+>>>>>>> Stashed changes
     }
     
 }
