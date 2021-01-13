@@ -1,4 +1,6 @@
 build.xml
+.xml/*
 build/
 manifest.mf
 nbproject/*
+/MypracticTests/nbproject/private/
