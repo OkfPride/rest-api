@@ -16,6 +16,7 @@ public class MypracticTests {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        String ss = "123";
     }
     
 }
